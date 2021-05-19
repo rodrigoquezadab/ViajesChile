@@ -23,16 +23,34 @@ body {
   background-color: black;
 }
 
-.header {
-  height: 180vh;
-  min-height: 400px;
+.navbar-brand {
+  background-image: url(/assets/img/viajes.svg);
+  background-size: cover;
+
+  height: 50px;
+  width: 50px;
+}
+
+.navbar {
+  position: relative;
+  color: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+header {
+  height: 100vh;
+  min-height: 50vh;
   background-size: cover;
   background-color: blueviolet;
   background-image: url("/assets/img/carousel1.jpg");
+  z-index: 0;
 }
 
 .hidden-spacer {
-  height: 56px;
+  height: 30px;
 }
 
 .border-title {
