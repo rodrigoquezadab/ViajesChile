@@ -8,7 +8,7 @@ h6 {
   margin: 0;
   padding: 0;
   color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -23,6 +23,10 @@ body {
   background-color: black;
 }
 
+.espaciador {
+  padding: 10px;
+}
+
 .navbar-brand {
   background-image: url(/assets/img/viajes.svg);
   background-size: cover;
@@ -31,8 +35,13 @@ body {
   width: 50px;
 }
 
+.navbar-toggler-icon {
+  color: white;
+}
+
 .navbar {
-  position: relative;
+  position: absolute;
+  z-index: 15;
   color: white;
 }
 
@@ -57,6 +66,21 @@ header {
   border-bottom: rgb(0, 150, 260) 1px solid;
 }
 
+.icon-section {
+  background-color: rgb(0, 150, 260);
+  padding: 5px;
+  color: white;
+}
+
+.fas {
+  text-align: center;
+  display: block;
+}
+
+.fab {
+  color: white;
+}
+
 .tarjeta {
   background-color: rgb(0, 150, 260);
   overflow: hidden;
@@ -66,7 +90,28 @@ header {
 
 .tarjeta-foto01 {
   background-image: url(/assets/img/card1.jpg);
-  height: 80px;
+  height: 150px;
+  width: auto;
+  background-size: cover;
+}
+
+.tarjeta-foto02 {
+  background-image: url(/assets/img/card2.jpg);
+  height: 150px;
+  width: auto;
+  background-size: cover;
+}
+
+.tarjeta-foto03 {
+  background-image: url(/assets/img/card3.jpg);
+  height: 150px;
+  width: auto;
+  background-size: cover;
+}
+
+.tarjeta-foto04 {
+  background-image: url(/assets/img/card4.jpg);
+  height: 150px;
   width: auto;
   background-size: cover;
 }
