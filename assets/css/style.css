@@ -28,7 +28,7 @@ body {
 }
 
 .navbar-brand {
-  background-image: url(/assets/img/viajes.svg);
+  background-image: url(./assets/img/viajes.svg);
   background-size: cover;
 
   height: 50px;
@@ -54,7 +54,7 @@ header {
   min-height: 50vh;
   background-size: cover;
   background-color: blueviolet;
-  background-image: url("/assets/img/carousel1.jpg");
+  background-image: url("./assets/img/carousel1.jpg");
   z-index: 0;
 }
 
@@ -89,28 +89,28 @@ header {
 }
 
 .tarjeta-foto01 {
-  background-image: url(/assets/img/card1.jpg);
+  background-image: url(./assets/img/card1.jpg);
   height: 150px;
   width: auto;
   background-size: cover;
 }
 
 .tarjeta-foto02 {
-  background-image: url(/assets/img/card2.jpg);
+  background-image: url(./assets/img/card2.jpg);
   height: 150px;
   width: auto;
   background-size: cover;
 }
 
 .tarjeta-foto03 {
-  background-image: url(/assets/img/card3.jpg);
+  background-image: url(./assets/img/card3.jpg);
   height: 150px;
   width: auto;
   background-size: cover;
 }
 
 .tarjeta-foto04 {
-  background-image: url(/assets/img/card4.jpg);
+  background-image: url(./assets/img/card4.jpg);
   height: 150px;
   width: auto;
   background-size: cover;
