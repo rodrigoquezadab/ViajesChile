@@ -96,7 +96,7 @@ header {
 }
 
 .tarjeta-foto02 {
-  background-image: url(../..assets/img/card2.jpg);
+  background-image: url(../../assets/img/card2.jpg);
   height: 150px;
   width: auto;
   background-size: cover;
